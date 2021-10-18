@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
         myarea.square(2);
 
+        myarea.rectangle(5,2);
+
+
+
+
 
     }
 }
