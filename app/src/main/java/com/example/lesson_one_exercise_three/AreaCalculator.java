@@ -20,5 +20,9 @@ public class AreaCalculator {
         return Log.d("myLog","Area of circle is: " + Math.PI * (radius * radius));
     }
 
+    public double square(int area) {
+        return Log.d("myLog","Area of square is: " + area * area);
+    }
+
 
 }

@@ -12,8 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AreaCalculator mycircle = new AreaCalculator();
-        mycircle.circle(2);
+        AreaCalculator myarea = new AreaCalculator();
+        myarea.circle(2);
+
+        myarea.square(2);
+
 
     }
 }
